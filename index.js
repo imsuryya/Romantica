@@ -33,23 +33,23 @@ ScrollReveal().reveal(".header__btn", {
   delay: 500,
 });
 
+//Know More Button
+document.getElementById('knowMoreBtn').addEventListener('click', function() {
+  document.getElementById('about').scrollIntoView({
+      behavior: 'smooth'
+  });
+});
+
+//Contact Us Button
+document.getElementById('ContactUsBtn').addEventListener('click', function() {
+  document.getElementById('Contactus').scrollIntoView({
+      behavior: 'smooth'
+  });
+});
+
 // service container
 ScrollReveal().reveal(".service__card", {
   ...scrollRevealOptions,
   interval: 500,
 });
 
-// price container
-ScrollReveal().reveal(".price__card", {
-  ...scrollRevealOptions,
-  interval: 500,
-});
-
-document.addEventListener('DOMContentLoaded', function() {
-  const swiper = new Swiper(".swiper", {
-      loop: true,
-      pagination: {
-          el: ".swiper-pagination",
-      },
-  });
-});

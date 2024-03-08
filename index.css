@@ -285,7 +285,7 @@ nav {
 
   @media only screen and (max-width: 768px) {
     .img-responsive {
-      width: 60px; /* Reduce image size for smaller screens */
+      width: 60px; 
     }
   }
 
