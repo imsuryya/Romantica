@@ -698,3 +698,23 @@ padding: 40px 30px;
 /*------------------------------  Media questies End -----------------------------------*/
 
 /*---------------------------------- Contact us End---------------------------------------------*/
+
+@media only screen and (max-width: 768px) {
+  /* Add mobile-specific styles here */
+  .content-wrap {
+    width: 90%;
+    margin-top: 5%;
+    padding-bottom: 20%;
+  }
+
+  .contact-in {
+    flex: 100%;
+  }
+
+  .contact-in:nth-child(1),
+  .contact-in:nth-child(2),
+  .contact-in:nth-child(3) {
+    flex: 100%;
+  }
+}
+
