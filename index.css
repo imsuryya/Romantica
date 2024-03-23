@@ -421,7 +421,7 @@ nav {
   text-align: center;
 }
 
-@media (width > 480px) {
+@media (width > 768px) { /*480px*/
   .header__content h1 {
     font-size: 4rem;
     line-height: 5rem;
