@@ -86,7 +86,7 @@ body {
 .header {
   padding-block: 5rem;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("image/header.jpg");
+    url("image/Hero\ battery.jpeg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -545,6 +545,13 @@ nav {
     gap: 2rem;
   }
 }
+/*------ contact ------------*/
+
+#Contactus{
+
+  background-color: #f8f7fd;
+
+}
 
 .content-wrap{
   width: 80%;
@@ -699,7 +706,7 @@ padding: 40px 30px;
 
 /*---------------------------------- Contact us End---------------------------------------------*/
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   /* Add mobile-specific styles here */
   .content-wrap {
     width: 90%;
@@ -717,4 +724,163 @@ padding: 40px 30px;
     flex: 100%;
   }
 }
+/*---------------------------------- feature class ------------------------------------------*/
+
+.wrapper{
+  font-family: 'poppins';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #fff;
+  padding-bottom: 75px;
+}
+
+.wrapper h1{
+  font-size: 3em;
+  margin: 25px;
+}
+.featured{
+  color: gold;
+}
+
+.content-box{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 1000px;
+  margin-top: 30px;
+}
+.card{
+  min-height: 220px;
+  width: 320px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /*background: gold;*/
+  margin: 10px 4px;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.card h2{
+  margin-bottom:12px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+}
+.card p{
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+/*Marine*/
+.card:nth-child(1) {
+  background: url('image/Marine\ battery.jpeg');
+  background-size: cover;
+  }
+.card:nth-child(1):hover {
+  background: linear-gradient(45deg, rgba(255, 0, 0, 0.7) 0%, rgba(255, 0, 0, 0.7) 100%), url('image/Marine\ battery.jpeg');
+  background-size: cover;
+}
+.card:nth-child(1):hover h2{
+  background: rgba(red), url('image/Marine\ battery.jpeg');
+  color: #fff;
+}
+/*Lift*/
+.card:nth-child(2) {
+  background: url('image/lift\ battery.jpeg');
+  background-size: cover;
+  }
+.card:nth-child(2):hover{
+  background: linear-gradient(45deg, rgba(255, 0, 0, 0.7) 0%, rgba(255, 0, 0, 0.7) 100%), url('image/lift\ battery.jpeg');
+  background-size: cover;
+  color: white;
+}
+.card:nth-child(2):hover h2{
+  color: #fff;
+}
+/*Moter Cycle*/
+.card:nth-child(3) {
+  background: url('image/motercycle\ Battery.jpeg');
+  background-size: cover;
+  }
+.card:nth-child(3):hover{
+  background: linear-gradient(45deg, rgba(255, 0, 0, 0.7) 0%, rgba(255, 0, 0, 0.7) 100%), url('image/motercycle\ Battery.jpeg');
+  background-size: cover;
+  color: white;
+}
+.card:nth-child(3):hover h2{
+  color: #fff;
+}
+/*Car*/
+.card:nth-child(4) {
+  background: url('image/Car\ battery.jpeg');
+  background-size: cover;
+  }
+.card:nth-child(4):hover{
+  background: linear-gradient(45deg, rgba(255, 0, 0, 0.7) 0%, rgba(255, 0, 0, 0.7) 100%), url('image/Car\ battery.jpeg');
+  background-size: cover;
+}
+.card:nth-child(4):hover h2{
+  color: #fff;
+}
+/*Yatch*/
+.card:nth-child(5) {
+  background: url('image/Yatch\ battery.jpeg');
+  background-size: cover;
+  }
+.card:nth-child(5):hover{
+  background: linear-gradient(45deg, rgba(255, 0, 0, 0.7) 0%, rgba(255, 0, 0, 0.7) 100%), url('image/Yatch\ battery.jpeg');
+  background-size: cover;
+  color: white;
+}
+.card:nth-child(5):hover h2{
+  color: #fff;
+}
+/*Generator*/
+.card:nth-child(6) {
+  background: url('image/Generator\ battery.jpeg');
+  background-size: cover;
+  }
+.card:nth-child(6):hover {
+  background: linear-gradient(45deg, rgba(255, 0, 0, 0.7) 0%, rgba(255, 0, 0, 0.7) 100%), url('image/Generator\ battery.jpeg');
+  background-size: cover;
+  color: white;
+}
+.card:nth-child(6):hover h2{
+  color: #fff;
+}
+
+@media (max-width: 991px) {
+  .wrapper {
+      padding: 25px;
+      text-align: center;
+  }
+
+  .wrapper h1 {
+      font-size: 2.5em;
+      font-weight: 600;
+  }
+
+  .content-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      padding-right: 20px; /* Adjust padding as needed */
+      box-sizing: border-box; /* Include padding in the total width */
+      margin: 0 auto; /* Center horizontally */
+  }
+
+  .card {
+      min-width: 300px;
+      margin: 10px 0; /* Adjust top and bottom margin as needed */
+      text-align: center;
+  }
+}
+
+/*---------------------------------- feature class End ------------------------------------------*/
+
 
