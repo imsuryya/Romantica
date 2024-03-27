@@ -687,6 +687,8 @@ padding: 40px 30px;
 @media only screen and (max-width: 768px) {
   .content-wrap {
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
     width: 90%; /* Adjust the width as needed */
     margin-top: 5%;
     padding-bottom: 20%;
