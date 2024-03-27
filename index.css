@@ -360,29 +360,6 @@ nav {
   gap: 4rem 2rem;
 }
 
-.footer__logo {
-  margin-bottom: 2rem;
-}
-
-.footer__socials {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
-
-.footer__socials a {
-  padding: 5px 10px;
-  font-size: 1.25rem;
-  color: var(--text-light);
-  background-color: var(--secondary-color);
-  border-radius: 100%;
-  transition: 0.3s;
-}
-
-.footer__socials a:hover {
-  color: var(--primary-color);
-  background-color: var(--white);
-}
 
 .footer__col h4 {
   margin-bottom: 2rem;
@@ -423,6 +400,8 @@ nav {
 
 @media (width > 768px) { /*480px*/
   .header__content h1 {
+    display: flex;
+    justify-content: center;
     font-size: 4rem;
     line-height: 5rem;
   }
