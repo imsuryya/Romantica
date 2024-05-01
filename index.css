@@ -289,6 +289,12 @@ nav {
     border: 1px solid #ccc;
   }
 
+@media (max-width: 850px)
+{
+  img-responsive {
+      width: 60px; 
+  }
+}
   
 @media (max-width: 850px) and (max-width: 991px)
  {
