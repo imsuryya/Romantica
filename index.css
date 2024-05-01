@@ -289,8 +289,7 @@ nav {
     border: 1px solid #ccc;
   }
 
-@media only screen and (max-width: 768px)
- {
+  @media only screen and (max-width: 768px) {
     .img-responsive {
       width: 60px; 
     }
@@ -381,7 +380,6 @@ nav {
 }
 
 @media (width > 768px) { /*480px*/
- { /*480px*/
   .header__content h1 {
     display: flex;
     justify-content: center;
@@ -415,8 +413,7 @@ nav {
 }
 /** Footer End **/
 
-@media (width > 768px)
- {
+@media (width > 768px) {
   nav {
     padding: 2rem 1rem;
     position: static;
@@ -630,8 +627,7 @@ padding: 40px 30px;
 
 /*------------------------------  Media questies -----------------------------------*/
 
-@media only screen and (max-width: 768px)
- {
+@media only screen and (max-width: 768px) {
   .content-wrap {
     margin: 0 auto;
     display: flex;
@@ -656,8 +652,7 @@ padding: 40px 30px;
 
 /*---------------------------------- Contact us End---------------------------------------------*/
 
-@media only screen and (max-width: 768px)
- {
+@media only screen and (max-width: 768px) {
   /* Add mobile-specific styles here */
   .content-wrap {
     width: 90%;
@@ -804,8 +799,7 @@ padding: 40px 30px;
   color: #fff;
 }
 
-@media (max-width: 850px)
- { /*991*/
+@media (max-width: 850px) { /*991*/
   .wrapper {
       margin: 0 auto;
       padding: 25px;
@@ -835,5 +829,3 @@ padding: 40px 30px;
 }
 
 /*---------------------------------- feature class End ------------------------------------------*/
-
-
