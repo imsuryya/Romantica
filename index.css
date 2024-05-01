@@ -804,7 +804,7 @@ padding: 40px 30px;
   color: #fff;
 }
 
-@media (max-width: 850px) and (max-width: 991px)
+@media (max-width: 850px)
  { /*991*/
   .wrapper {
       margin: 0 auto;
