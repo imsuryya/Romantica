@@ -4,22 +4,20 @@ html {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -ms-text-size-adjust: 100%;
-    /* Ensure overflow is not hidden */
     overflow: auto;
     height: 100%;
 }
 
-body {
+/*body {
     font-family: "BungeeFont", sans-serif;
     font-weight: normal;
     font-style: normal;
     line-height: 1;
     cursor: default;
-    /* Ensure overflow is not hidden */
-    overflow: auto;
+    overflow: hidden;
     height: 100%;
     font-size: 5rem;
-}
+} */
 
 :root {
   --primary-color: #da042a;
@@ -98,6 +96,10 @@ ul {
 html,
 body {
   scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
 }
 
 .header {
@@ -246,7 +248,7 @@ nav {
   margin-bottom: 0.5rem;
   font-size: 1.2rem;
   font-weight: 600;
-  color: var (--secondary-color-dark);
+  color: var(--secondary-color-dark);
 }
 
 .service__card p {
