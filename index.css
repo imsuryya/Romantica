@@ -4,7 +4,7 @@ html {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -ms-text-size-adjust: 100%;
-    overflow: hidden;
+    /* Remove the overflow: hidden; */
     height: 100%;
 }
 
@@ -100,6 +100,7 @@ body {
 
 body {
   font-family: "Poppins", sans-serif;
+  /* Remove overflow: hidden; to allow scrolling */
 }
 
 .header {
@@ -248,7 +249,7 @@ nav {
   margin-bottom: 0.5rem;
   font-size: 1.2rem;
   font-weight: 600;
-  color: var(--secondary-color-dark);
+  color: var (--secondary-color-dark);
 }
 
 .service__card p {
